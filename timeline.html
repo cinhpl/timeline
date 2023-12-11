@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        audio {
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding: 0;
+            height: 20px;
+            width: 15px;
+            opacity: 0.2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="image-container">
+        <div class="overlay">
+            <span class="text">1993</span>
+        </div>
+        <img src="images/1993.JPG" alt="Image 1993">
+    </div>
+    <div class="image-container">
+        <div class="overlay">
+            <span class="text">1999</span>
+            <p>Découverte des jeux-video</p>
+        </div>
+        <img src="images/1999.jpeg" alt="Image 1999">
+    </div>
+    <div class="image-container">
+        <div class="overlay">
+            <span class="text">2004</span>
+            <p>Premier site crée</p>
+        </div>
+        <img src="images/2004.jpeg" alt="Image 2004">
+    </div>
+    
+    <div class="image-container">
+        <div class="overlay">
+            <span class="text">2017</span>
+            <p>Licence en commerce et management</p>
+        </div>
+        <img src="images/2017.jpg" alt="Image 2017">
+    </div>
+    <div class="image-container">
+        <div class="overlay">
+            <span class="text">2018 - 2021</span>
+        </div>
+        <img src="images/2018-2021.png" alt="Image 2018 - 2021">
+    </div>
+
+    <div class="image-container">
+        <div class="overlay">
+            <span class="text">2022</span>
+            <p>Changement</p>
+        </div>
+        <img src="images/2022.png" alt="Image 2022">
+    </div>
+    <div class="image-container">
+        <div class="overlay">
+            <span class="text">2023</span>
+            <p>Retour à l'école</p>
+        </div>
+        <img src="images/2023.png" alt="Image 2023">
+    </div>
+
+    <div class="image-container">
+        <div class="overlay">
+            <span class="text">2035 ?</span>
+        </div>
+        <img src="images/2035.jpeg" alt="Image 2035">
+    </div>
+    </div>
+    <script>
+        window.addEventListener("DOMContentLoaded", function() {
+            var music = document.getElementById("music");
+            music.play();
+        });
+    </script>
+    <audio controls  autoplay src="song.mp3"></audio>
+
+    <script src="index.js"></script>
+</body>
+</html>
